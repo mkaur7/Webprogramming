@@ -1,0 +1,169 @@
+#home{
+background-color: #003366;
+}
+h1{
+
+color: white;
+font-size: 70px;
+background-color: black;
+}
+img{
+float: left;
+}
+#homeul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+ul.leaf{
+list-style-image:url('leaf.png')
+}
+#homeli {
+    float: left;
+	border-right:1px solid #bbb;
+}
+#homeli:last-child {
+    border-right: none;
+}
+#homeli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#homeli a:hover:not(.active) {
+    background-color: #ffcc00;
+}
+.active1 {
+    background-color: #ffcc00;
+}
+p{ 
+    float: center;
+    display: block;
+    margin: 0;
+	margin-left: 100px;
+	width: 100%;
+}
+.caption {
+         
+         width: 300px;
+		 color: white;
+		 font-size: 16pt;
+     }
+    
+    .caption p {
+	     padding-left: 10px;
+         margin-top: 10px;
+         width: auto;
+     }
+
+#recipe{
+
+color: #000000;
+float: center;
+}
+div#container{
+background-color: #FFCC00;
+padding: 30px;
+width: 60%;
+margin: 0px auto;
+font-family: sans-serif;
+}
+
+#recipeh1{
+letter-spacing: 1px;
+color: #A4A400;
+font-size: 40px;
+background-color: #F0F0F0;
+}
+
+#recipeul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0F0F0;
+}
+#recipeli {
+    float: left;
+	border-right:1px solid #bbb;
+}
+#recipeli:last-child {
+    border-right: none;
+}
+#recipeli a {
+    display: block;
+    color: #A4A400;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#recipeli a:hover:not(.active2) {
+    background-color: #000000;
+}
+.active2 {
+    background-color: #000000;
+}
+
+#recipeh3{
+letter-spacing: 1px;
+color: #A4A400;
+font-size: 30px;
+background-color: #F0F0F0;
+}
+
+#recipep{
+float: bottom;
+margin: 0px;
+width:100%;
+text-align: left;
+}
+
+table, th, td {
+    color: white;
+    border: 1px #FFFFFF;
+    padding: 1px;
+	background-color: #F0F0F0;
+}
+caption{
+color: #A4A400;
+background-color: #F0F0F0;
+padding: 5px;
+}
+th{
+padding: 5px;
+background-color: #003366;
+}
+td{
+padding: 5px;
+background-color: #CC9933;
+}
+
+div#recipe2{
+background-color: #F0F0F0;
+padding: 30px;
+width: 60%;
+margin: 0px auto;
+font-family: sans-serif;
+}
+#recipe2img{
+width:380px;
+height:350px;
+float: center;
+display: block;
+margin-left: auto;
+margin-right: auto 
+}
+#recipe2p{
+font-size: 45px;
+color: #ff0000;
+margin: 0px;
+}
+
+#recipe2p1{
+color: #000000;
+margin: 0px;
+}
